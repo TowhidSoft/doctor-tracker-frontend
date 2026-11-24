@@ -64,12 +64,12 @@ Pagination, search, filters and sorting are executed in MongoDB, never in the br
 
 Add screenshots to `docs/screenshots/` and reference them here:
 
-| View | Desktop | Mobile |
-| --- | --- | --- |
-| Dashboard | `docs/screenshots/dashboard-desktop.png` | `docs/screenshots/dashboard-mobile.png` |
-| Doctors | `docs/screenshots/doctors-desktop.png` | `docs/screenshots/doctors-mobile.png` |
+| View          | Desktop                                      | Mobile                                      |
+| ------------- | -------------------------------------------- | ------------------------------------------- |
+| Dashboard     | `docs/screenshots/dashboard-desktop.png`     | `docs/screenshots/dashboard-mobile.png`     |
+| Doctors       | `docs/screenshots/doctors-desktop.png`       | `docs/screenshots/doctors-mobile.png`       |
 | Doctor detail | `docs/screenshots/doctor-detail-desktop.png` | `docs/screenshots/doctor-detail-mobile.png` |
-| Patients | `docs/screenshots/patients-desktop.png` | `docs/screenshots/patients-mobile.png` |
+| Patients      | `docs/screenshots/patients-desktop.png`      | `docs/screenshots/patients-mobile.png`      |
 
 ![Dashboard](docs/screenshots/dashboard-desktop.png)
 ![Dashboard on mobile](docs/screenshots/dashboard-mobile.png)

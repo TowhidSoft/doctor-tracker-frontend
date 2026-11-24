@@ -59,3 +59,20 @@ Doctors, patients and analytics are server data, so they live in RTK Query's cac
 
 **2. Server-driven lists with one hook for query state.**
 Pagination, search, filters and sorting are executed in MongoDB, never in the browser, so the page cost stays flat as data grows. `useListParams` owns the query string state: any filter, search or sort change resets to page 1, search is debounced, and after a delete it steps back to the last valid page. Tables, filter bar and charts are memoised (`memo`, stable callbacks) so typing in search does not re-render charts, and Recharts components receive already-shaped data from the API.
+<<<<<<< HEAD
+=======
+
+## Visual Evidence
+
+Add screenshots to `docs/screenshots/` and reference them here:
+
+| View          | Desktop                                      | Mobile                                      |
+| ------------- | -------------------------------------------- | ------------------------------------------- |
+| Dashboard     | `docs/screenshots/dashboard-desktop.png`     | `docs/screenshots/dashboard-mobile.png`     |
+| Doctors       | `docs/screenshots/doctors-desktop.png`       | `docs/screenshots/doctors-mobile.png`       |
+| Doctor detail | `docs/screenshots/doctor-detail-desktop.png` | `docs/screenshots/doctor-detail-mobile.png` |
+| Patients      | `docs/screenshots/patients-desktop.png`      | `docs/screenshots/patients-mobile.png`      |
+
+![Dashboard](docs/screenshots/dashboard-desktop.png)
+![Dashboard on mobile](docs/screenshots/dashboard-mobile.png)
+>>>>>>> temp-recovery
